@@ -1,0 +1,55 @@
+<form #mentorprofileForm="ngForm">
+    <div class="form-row">
+      <div class="form-group col-md-4">
+        <label for="inputEmail4">Mentor Id</label>
+        <input type="text" class="form-control" readonly  id="Id" placeholder="Mentor Id" [(ngModel)]="mentordata.id" name="Id" #IdControl="ngModel">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputPassword4">First Name</label>
+        <input type="text" class="form-control" id="FirstName" placeholder="FirstName" [(ngModel)]="mentordata.firstName" name="FirstName" #FirstNameControl="ngModel" required>
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputPassword4">Last Name</label>
+        <input type="text" class="form-control" id="LastName" placeholder="LastName" [(ngModel)]="mentordata.lastName" name="LastName" #LastNameControl="ngModel" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputAddress">Gender</label>
+      <select class="form-control" name="Gender" [(ngModel)]="mentordata.gender" #GenderControl="ngModel" id="Gender" required>
+            <option selected="selected">--Select Gender--</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="inputAddress2">Date Of Birth</label>
+      <!-- <input type="url" class="form-control" id="ImgSourceLink" placeholder="Enter the course image url" name="ImgSourceLink" [(ngModel)]="coursedata.ImgSourceLink" #ImgSourceLinkControl="ngModel" required> -->
+      <input type="date" class="form-control" id="DateOfBirth" placeholder="Date Of Birth" 
+      name="DateOfBirth" [(ngModel)]="mentordata.dateOfBirth" 
+      #DateOfBirthControl="ngModel" required>  
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Experience</label>
+          <input type="number" class="form-control"  id="Experience" placeholder="Experience in years" [(ngModel)]="mentordata.experience" name="experience" #experienceControl="ngModel" min="0" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">LinkedIn Profile</label>
+          <input type="url" class="form-control" id="LinkedIn" placeholder="LinkedIn Profile" [(ngModel)]="mentordata.linkedinprofile" name="LinkedIn" #LinkedInControl="ngModel" required>
+        </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputAddress">Skills</label>
+        <input type="text" class="form-control" id="Skills" placeholder="Skills" [(ngModel)]="mentordata.skills" name="Skills" #SkillsControl="ngModel" required>
+      </div>
+      <div class="form-group col-md-6">
+          <label for="inputAddress">Role</label>
+          <input type="text" class="form-control" id="Role" readonly placeholder="Role" [(ngModel)]="mentordata.role" name="Role" #RoleControl="ngModel" required>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-danger" >Cancel</button>&nbsp;
+    <button type="submit" class="btn btn-warning" [disabled]="mentorprofileForm.invalid" (click)="updatementorprofile()">Update</button>
+  </form>
+
+

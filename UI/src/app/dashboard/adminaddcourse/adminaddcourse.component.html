@@ -1,0 +1,31 @@
+<form #addcourseForm="ngForm">
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Course Id</label>
+        <input type="text" class="form-control" id="TechId" placeholder="Course Id" [(ngModel)]="coursedata.TechId" name="TechId" #TechIdControl="ngModel">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">Course Name</label>
+        <input type="text" class="form-control" id="Name" placeholder="Course Name" [(ngModel)]="coursedata.Name" name="Name" #NameControl="ngModel" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputAddress">Course Description</label>
+      <input type="text" class="form-control" id="Description" placeholder="Course Description" name="Description" [(ngModel)]="coursedata.Description" #DescriptionControl="ngModel" required>
+    </div>
+    <div class="form-group">
+      <label for="inputAddress2">Course Image Link</label>
+      <input type="url" class="form-control" id="ImgSourceLink" placeholder="Enter the course image url" name="ImgSourceLink" [(ngModel)]="coursedata.ImgSourceLink" #ImgSourceLinkControl="ngModel" required>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputCity">Course Fee</label>
+        <input type="number" class="form-control" id="BasicFee" placeholder="Course Fee" name="BasicFee" [(ngModel)]="coursedata.BasicFee" #BasicFeeControl="ngModel" min="0" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputState">Commission</label>
+        <input type="number" class="form-control" id="Commission" placeholder="Course Commission" name="Commission" [(ngModel)]="coursedata.Commission" #CommissionControl="ngModel" min="0" max="100" required>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-success" [disabled]="addcourseForm.invalid" (click)="submitcourse()">Submit</button>&nbsp;
+  </form>

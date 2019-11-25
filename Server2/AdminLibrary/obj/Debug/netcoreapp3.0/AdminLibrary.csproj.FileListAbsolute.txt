@@ -1,0 +1,11 @@
+C:\Users\hp\Desktop\.net project\Server2\AdminLibrary\bin\Debug\netcoreapp3.0\AdminLibrary.deps.json
+C:\Users\hp\Desktop\.net project\Server2\AdminLibrary\bin\Debug\netcoreapp3.0\AdminLibrary.dll
+C:\Users\hp\Desktop\.net project\Server2\AdminLibrary\bin\Debug\netcoreapp3.0\AdminLibrary.pdb
+C:\Users\hp\Desktop\.net project\Server2\AdminLibrary\obj\Debug\netcoreapp3.0\AdminLibrary.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\.net project\Server2\AdminLibrary\obj\Debug\netcoreapp3.0\AdminLibrary.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\.net project\Server2\AdminLibrary\obj\Debug\netcoreapp3.0\AdminLibrary.AssemblyInfo.cs
+C:\Users\hp\Desktop\.net project\Server2\AdminLibrary\obj\Debug\netcoreapp3.0\AdminLibrary.dll
+C:\Users\hp\Desktop\.net project\Server2\AdminLibrary\obj\Debug\netcoreapp3.0\AdminLibrary.pdb
+C:\Users\hp\Desktop\.net project\Server2\AdminLibrary\bin\Debug\netcoreapp3.0\SharedLibrary.dll
+C:\Users\hp\Desktop\.net project\Server2\AdminLibrary\bin\Debug\netcoreapp3.0\SharedLibrary.pdb
+C:\Users\hp\Desktop\.net project\Server2\AdminLibrary\obj\Debug\netcoreapp3.0\AdminLibrary.csproj.CopyComplete

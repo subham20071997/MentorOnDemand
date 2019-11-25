@@ -1,0 +1,25 @@
+<div class="table-wrapper-scroll-y my-custom-scrollbar bg-white table-hover">
+
+    <table class="table table-bordered table-striped mb-0">
+      <thead>
+        <tr class="text-center">
+          <th scope="col">SL. No.</th>
+          <th scope="col">email</th>
+          <th scope="col">Course</th>
+          <th scope="col">Status</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let course of coursedata;index as i">
+        <tr align="center">
+          <th scope="row">{{i+1}}</th>
+          <td>{{course.email}}</td>
+          <td>{{course.techId}}</td>
+          <td align="center"><button type="button" class="btn btn-{{course.status? 'success':'danger'}}" (click)="blockmentor(mentor.email,mentor)"><i class="fa fa-ban mr-1"></i>{{course.status? "Accept":"Reject"}}</button></td>
+        </tr>
+      </tbody>
+    </table>
+  
+  </div>
+
+
+

@@ -1,0 +1,11 @@
+C:\Users\hp\Desktop\.net project\Server2\MentorLibrary\bin\Debug\netcoreapp3.0\MentorLibrary.deps.json
+C:\Users\hp\Desktop\.net project\Server2\MentorLibrary\bin\Debug\netcoreapp3.0\MentorLibrary.dll
+C:\Users\hp\Desktop\.net project\Server2\MentorLibrary\bin\Debug\netcoreapp3.0\MentorLibrary.pdb
+C:\Users\hp\Desktop\.net project\Server2\MentorLibrary\obj\Debug\netcoreapp3.0\MentorLibrary.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\.net project\Server2\MentorLibrary\obj\Debug\netcoreapp3.0\MentorLibrary.AssemblyInfo.cs
+C:\Users\hp\Desktop\.net project\Server2\MentorLibrary\obj\Debug\netcoreapp3.0\MentorLibrary.dll
+C:\Users\hp\Desktop\.net project\Server2\MentorLibrary\obj\Debug\netcoreapp3.0\MentorLibrary.pdb
+C:\Users\hp\Desktop\.net project\Server2\MentorLibrary\obj\Debug\netcoreapp3.0\MentorLibrary.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\.net project\Server2\MentorLibrary\bin\Debug\netcoreapp3.0\SharedLibrary.dll
+C:\Users\hp\Desktop\.net project\Server2\MentorLibrary\bin\Debug\netcoreapp3.0\SharedLibrary.pdb
+C:\Users\hp\Desktop\.net project\Server2\MentorLibrary\obj\Debug\netcoreapp3.0\MentorLibrary.csproj.CopyComplete

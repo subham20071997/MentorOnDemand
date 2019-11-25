@@ -1,0 +1,94 @@
+<div class="container h-100">
+    <div class="d-flex justify-content-center h-100">
+        <div class="user_card">
+            <div class="d-flex justify-content-center">
+                <div class="brand_logo_container">
+                    <img src="../../assets/Image/download.png" class="brand_logo" alt="Logo">
+                </div>
+            </div>
+            <div class="d-flex justify-content-center form_container">
+                <form #registerForm="ngForm" [matchValue]= "['password', 'confirmpassword']">
+                    <div class="input-group mb-2" [class.has-error]="emailControl.invalid && emailControl.touched">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input type="text" name="email" class="form-control input_user" value="" placeholder="Email Address" [(ngModel)]="registerData.email" #emailControl="ngModel" required pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$">
+                    </div>
+                    <div class="help-block text-danger" style="font-weight: bold;" *ngIf="emailControl.invalid && (emailControl.touched || emailControl.dirty)">
+                        <p *ngIf="emailControl.hasError('required')">
+                            Email is Required !
+                        </p>
+                        <p *ngIf="emailControl.hasError('pattern')">
+                            Enter Valid Email !
+                        </p>    
+                    </div>
+
+                    <div class="input-group mb-2" [class.has-error]="passwordControl.invalid && passwordControl.touched">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fas fa-key"></i></span>
+                        </div>
+                        <input type="password" name="password" class="form-control input_pass" value="" placeholder="password" [(ngModel)]="registerData.password" #passwordControl="ngModel" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,20}$"> 
+                    </div>
+                    <div class="help-block text-danger" style="font-weight: bold;" *ngIf="passwordControl.invalid && (passwordControl.touched || passwordControl.dirty)">
+                        <p *ngIf="passwordControl.hasError('required')">
+                            Password is Required !
+                        </p>
+                        <p *ngIf="passwordControl.hasError('pattern')">
+                            Minimum 4, contain upper,lower,digit,alphanumeric character !
+                        </p>
+                    </div>
+
+                    <div class="input-group mb-2" [class.has-error]="confirmpasswordControl.invalid && confirmpasswordControl.touched">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fas fa-key"></i></span>
+                        </div>
+                        <input type="password" name="confirmpassword" class="form-control input_pass" value="" placeholder="Confirm Password" [(ngModel)]="confirmpassword" #confirmpasswordControl="ngModel" required>
+                    </div>
+                    <div class="help-block text-danger" style="font-weight: bold;" *ngIf="confirmpasswordControl.invalid && (confirmpasswordControl.dirty || confirmpasswordControl.touched)">
+                        <p *ngIf="confirmpasswordControl.hasError('required')">
+                            Password is required !
+                        </p>
+                        <p *ngIf="confirmpasswordControl.errors?.matchValueError">
+                            Confirm Password & Password must be same.
+                        </p>
+                    </div>
+
+
+
+                    <div class="input-group mb-2">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <select class="form-control" name="role" [(ngModel)]="registerData.role" required #roleControl="ngModel">
+                            <option selected="selected">--Select Role--</option>
+                            <option value="1">Admin</option>
+                            <option value="2">Student</option>
+                            <option value="3">Mentor</option>
+                        </select>
+                        <!-- <input type="password" name="" class="form-control input_pass" value="" placeholder="Confirm Password"> -->
+                    </div>
+                    <div class="help-block text-danger" style="font-weight: bold;" *ngIf=" roleControl.invalid && (roleControl.touched || roleControl.dirty)">
+                        <p *ngIf="roleControl.hasError('required')">
+                            Please select Role !
+                        </p>
+                    </div>    
+                    <!-- <div class="form-group">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customControlInline">
+                            <label class="custom-control-label" for="customControlInline">Remember me</label>
+                        </div>
+                    </div> -->
+                        <div class="d-flex justify-content-center mt-3 login_container">
+                 <button type="button" name="button" class="btn login_btn" [disabled]="registerForm.invalid" (click)="register()" >Register</button>
+               </div>
+                </form>
+            </div>
+    
+            <div class="mt-4">
+                <div class="d-flex justify-content-center text-white links">
+                    Already have an account? <a routerLink="/login" class="ml-2">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

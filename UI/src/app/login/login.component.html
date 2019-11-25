@@ -1,0 +1,58 @@
+<div class="container h-100">
+    <div class="d-flex justify-content-center h-100">
+        <div class="user_card">
+            <div class="d-flex justify-content-center">
+                <div class="brand_logo_container">
+                    <img src="../../assets/Image/295128.png" class="brand_logo" alt="Logo">
+                </div>
+            </div>
+            <div class="d-flex justify-content-center form_container">
+                <form #loginForm="ngForm">
+                    <div class="input-group mb-3" [class.has-error]="emailControl.invalid && emailControl.touched">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input type="text" name="email" class="form-control input_user" value="" placeholder="Email Address" [(ngModel)]="loginData.email" #emailControl="ngModel" required pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$">
+                    </div>
+                    <div class="help-block text-black" style="font-weight: bold;" *ngIf="emailControl.invalid && (emailControl.touched || emailControl.dirty)">
+                        <p *ngIf="emailControl.hasError('required')">
+                            Email is Required !
+                        </p>
+                        <p *ngIf="emailControl.hasError('pattern')">
+                            Enter Valid Email !
+                        </p>
+                    </div>
+
+                    <div class="input-group mb-2" [class.has-error]="passwordControl.invalid && passwordControl.touched">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fas fa-key"></i></span>
+                        </div>
+                        <input type="password" name="password" class="form-control input_pass" value="" placeholder="password" [(ngModel)]="loginData.password" #passwordControl="ngModel" required>
+                    </div>
+                    <div class="help-block text-black" style="font-weight: bold;" *ngIf="passwordControl.invalid && (passwordControl.touched || passwordControl.dirty)">
+                        Password is Required !
+                    </div>
+
+                    <!-- <div class="form-group">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customControlInline">
+                            <label class="custom-control-label" for="customControlInline">Remember me</label>
+                        </div>
+                    </div> -->
+                        <div class="d-flex justify-content-center mt-3 login_container">
+                 <button type="button" name="button" class="btn login_btn" [disabled]="loginForm.invalid" (click)="login()">Login</button>
+               </div>
+                </form>
+            </div>
+    
+            <div class="mt-4">
+                <div class="d-flex justify-content-center text-white links">
+                    Don't have an account? <a routerLink="/register" class="ml-2">Register</a>
+                </div>
+                <div class="d-flex justify-content-center text-white links">
+                    <a href="#" >Forgot your password?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

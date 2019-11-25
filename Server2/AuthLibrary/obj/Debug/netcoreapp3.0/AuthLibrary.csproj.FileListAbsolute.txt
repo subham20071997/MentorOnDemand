@@ -1,0 +1,11 @@
+C:\Users\hp\Desktop\.net project\Server2\AuthLibrary\bin\Debug\netcoreapp3.0\SharedLibrary.dll
+C:\Users\hp\Desktop\.net project\Server2\AuthLibrary\obj\Debug\netcoreapp3.0\AuthLibrary.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\.net project\Server2\AuthLibrary\obj\Debug\netcoreapp3.0\AuthLibrary.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\.net project\Server2\AuthLibrary\obj\Debug\netcoreapp3.0\AuthLibrary.AssemblyInfo.cs
+C:\Users\hp\Desktop\.net project\Server2\AuthLibrary\bin\Debug\netcoreapp3.0\AuthLibrary.deps.json
+C:\Users\hp\Desktop\.net project\Server2\AuthLibrary\bin\Debug\netcoreapp3.0\AuthLibrary.dll
+C:\Users\hp\Desktop\.net project\Server2\AuthLibrary\bin\Debug\netcoreapp3.0\AuthLibrary.pdb
+C:\Users\hp\Desktop\.net project\Server2\AuthLibrary\bin\Debug\netcoreapp3.0\SharedLibrary.pdb
+C:\Users\hp\Desktop\.net project\Server2\AuthLibrary\obj\Debug\netcoreapp3.0\AuthLibrary.csproj.CopyComplete
+C:\Users\hp\Desktop\.net project\Server2\AuthLibrary\obj\Debug\netcoreapp3.0\AuthLibrary.dll
+C:\Users\hp\Desktop\.net project\Server2\AuthLibrary\obj\Debug\netcoreapp3.0\AuthLibrary.pdb

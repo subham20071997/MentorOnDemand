@@ -1,0 +1,27 @@
+<div class="table-wrapper-scroll-y my-custom-scrollbar bg-white table-hover">
+
+    <table class="table table-bordered table-striped mb-0">
+      <thead>
+        <tr class="text-center">
+          <th scope="col">SL. No.</th>
+          <th scope="col">Student Name</th>
+          <th scope="col">Mentor Name</th>
+          <th scope="col">Course</th>
+          <th scope="col">Payment Status</th>
+          <th scope="col">Fee</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let mentor of mentors;index as i">
+        <tr>
+          <th scope="row">{{i+1}}</th>
+          <td>{{mentor.name}}</td>
+          <td>{{mentor.email}}</td>
+          <td>{{mentor.skills}}</td>
+          <td align="center"><button type="button" class="btn btn-{{mentor.status? 'info':'warning'}}" (click)="blockmentor(mentor.email,mentor)"><i class="fa fa-ban mr-1"></i>{{mentor.status? "Activate":"Block"}}</button></td>
+        </tr>
+      </tbody>
+    </table>
+  
+  </div>
+
+

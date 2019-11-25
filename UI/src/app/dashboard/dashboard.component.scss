@@ -1,0 +1,64 @@
+// navbar
+.sidebar{
+    margin-top: 6.3%;
+    width: 20%;
+    height: 92vh;
+    background:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.9)), url('../../assets/Image/adminsidebar.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 7px 25px #999;
+ }
+ .admin{
+    text-align: initial;
+    font-size: 23px;
+    font-weight: bold;
+    border-bottom: 1px groove #eee;
+ }
+ .image{
+    width: 100px;
+    height: 100px; 
+    margin-left: 65px;
+    border-radius: 100px;
+ }
+ .sidebar-link{
+     transition:all .4s; 
+ }
+ .sidebar-link:hover{
+    background-color: #444;
+    border-radius:5px          
+ }
+ .font{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+ }
+ .current{
+     background-color: #bada55;
+     border-radius: 7px;
+     box-shadow: 2px 5px 10px black;
+     transition: all 0.4s;
+ }
+ .current:hover{
+     background-color: #E6E6FA;
+     border-radius: 7px;
+     box-shadow: 2px 5px 10px black;
+     transform:  translateY(-1px);	
+ }
+// end of navbar
+
+@media(max-width:768px){
+    .sidebar{
+        position: static;
+        height:auto;
+    }
+}
+
+.List{
+    margin-left: 20%;
+}
+div a.active{
+    background-color: aquamarine;
+    border-radius: 7px;
+    box-shadow: 2px 5px 10px black
+}

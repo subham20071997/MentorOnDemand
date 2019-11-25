@@ -1,0 +1,27 @@
+<div class="table-wrapper-scroll-y my-custom-scrollbar bg-white table-hover">
+
+        <table class="table table-bordered table-striped mb-0">
+          <thead>
+            <tr class="text-center">
+              <th scope="col">SL. No.</th>
+              <th scope="col">Name</th>
+              <th scope="col">Description</th>
+              <th scope="col">Basic Fee</th>
+              <th scope="col">Commission</th>
+            </tr>
+          </thead>
+          <tbody *ngFor="let course of courses ; index as i">
+            <tr>
+              <td class="text-center" scope="row">{{i+1}}</td>
+              <td>{{course.name}}</td>
+              <td>{{course.description}}</td>
+              <td>{{course.basicFee}}</td>
+              <td>{{course.commission}}</td>
+              <!-- <td align="center"><button type="button" class="btn btn-warning"><i class="fa fa-check-circle mr-1"></i>Solved</button></td> -->
+            </tr>
+          </tbody>
+        </table>
+      
+      </div>
+    
+

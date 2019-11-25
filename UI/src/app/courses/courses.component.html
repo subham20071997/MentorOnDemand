@@ -1,0 +1,23 @@
+<section>
+    <div class="search-box">
+        <input class="search-txt" type="text" name="searchText" [(ngModel)]="searchText" placeholder="Search Your Technology">
+        <a href="" class="search-btn">
+            <i class="fa fa-fw fa-search"></i>
+        </a>
+    </div>
+    <div class="container">
+        <!-- <h1 class="heading">Courses We Offer.</h1> -->
+        <div class="card-wrapper">
+            <div class="card" *ngFor="let course of courses | filter : searchText">
+                <img src="../../assets/Image/one.jpeg" alt="card background" class="card-img">
+                <img src={{course.imgSourceLink}} alt="profile image" class="profile-image">
+                <h1>{{course.name}}</h1>
+                <p class="about">
+                    {{course.description}}
+                </p>
+                <p class="text-center" style="font-weight: bold;font-size: 15px">Rs.{{course.basicFee}}/-</p>
+                <a class="btn" (click)="applycourse(course.techId)">Apply</a>
+            </div>
+        </div>
+    </div>
+</section>

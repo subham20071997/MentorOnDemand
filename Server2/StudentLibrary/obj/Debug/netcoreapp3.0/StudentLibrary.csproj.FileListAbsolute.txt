@@ -1,0 +1,11 @@
+C:\Users\hp\Desktop\.net project\Server2\StudentLibrary\bin\Debug\netcoreapp3.0\StudentLibrary.deps.json
+C:\Users\hp\Desktop\.net project\Server2\StudentLibrary\bin\Debug\netcoreapp3.0\StudentLibrary.dll
+C:\Users\hp\Desktop\.net project\Server2\StudentLibrary\bin\Debug\netcoreapp3.0\StudentLibrary.pdb
+C:\Users\hp\Desktop\.net project\Server2\StudentLibrary\obj\Debug\netcoreapp3.0\StudentLibrary.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\.net project\Server2\StudentLibrary\obj\Debug\netcoreapp3.0\StudentLibrary.AssemblyInfo.cs
+C:\Users\hp\Desktop\.net project\Server2\StudentLibrary\obj\Debug\netcoreapp3.0\StudentLibrary.dll
+C:\Users\hp\Desktop\.net project\Server2\StudentLibrary\obj\Debug\netcoreapp3.0\StudentLibrary.pdb
+C:\Users\hp\Desktop\.net project\Server2\StudentLibrary\obj\Debug\netcoreapp3.0\StudentLibrary.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\.net project\Server2\StudentLibrary\bin\Debug\netcoreapp3.0\SharedLibrary.dll
+C:\Users\hp\Desktop\.net project\Server2\StudentLibrary\bin\Debug\netcoreapp3.0\SharedLibrary.pdb
+C:\Users\hp\Desktop\.net project\Server2\StudentLibrary\obj\Debug\netcoreapp3.0\StudentLibrary.csproj.CopyComplete
