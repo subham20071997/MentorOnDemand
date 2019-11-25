@@ -9156,11 +9156,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Desktop\\.net project\\Server2\\MentorService\\MentorService.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\MentorService\\MentorService.csproj",
       "projectName": "MentorService",
-      "projectPath": "C:\\Users\\hp\\Desktop\\.net project\\Server2\\MentorService\\MentorService.csproj",
+      "projectPath": "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\MentorService\\MentorService.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Desktop\\.net project\\Server2\\MentorService\\obj\\",
+      "outputPath": "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\MentorService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9176,8 +9176,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\hp\\Desktop\\.net project\\Server2\\MentorLibrary\\MentorLibrary.csproj": {
-              "projectPath": "C:\\Users\\hp\\Desktop\\.net project\\Server2\\MentorLibrary\\MentorLibrary.csproj"
+            "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\MentorLibrary\\MentorLibrary.csproj": {
+              "projectPath": "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\MentorLibrary\\MentorLibrary.csproj"
             }
           }
         }

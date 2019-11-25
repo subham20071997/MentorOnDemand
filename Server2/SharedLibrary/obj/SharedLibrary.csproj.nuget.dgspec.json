@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\.net project\\Server2\\SharedLibrary\\SharedLibrary.csproj": {}
+    "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\SharedLibrary\\SharedLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\.net project\\Server2\\SharedLibrary\\SharedLibrary.csproj": {
+    "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\SharedLibrary\\SharedLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\.net project\\Server2\\SharedLibrary\\SharedLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\SharedLibrary\\SharedLibrary.csproj",
         "projectName": "SharedLibrary",
-        "projectPath": "C:\\Users\\hp\\Desktop\\.net project\\Server2\\SharedLibrary\\SharedLibrary.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\SharedLibrary\\SharedLibrary.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\.net project\\Server2\\SharedLibrary\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\SharedLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

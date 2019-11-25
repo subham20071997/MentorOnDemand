@@ -1751,11 +1751,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Desktop\\.net project\\Server2\\StudentLibrary\\StudentLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\StudentLibrary\\StudentLibrary.csproj",
       "projectName": "StudentLibrary",
-      "projectPath": "C:\\Users\\hp\\Desktop\\.net project\\Server2\\StudentLibrary\\StudentLibrary.csproj",
+      "projectPath": "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\StudentLibrary\\StudentLibrary.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Desktop\\.net project\\Server2\\StudentLibrary\\obj\\",
+      "outputPath": "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\StudentLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1771,8 +1771,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\hp\\Desktop\\.net project\\Server2\\SharedLibrary\\SharedLibrary.csproj": {
-              "projectPath": "C:\\Users\\hp\\Desktop\\.net project\\Server2\\SharedLibrary\\SharedLibrary.csproj"
+            "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\SharedLibrary\\SharedLibrary.csproj": {
+              "projectPath": "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\SharedLibrary\\SharedLibrary.csproj"
             }
           }
         }

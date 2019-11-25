@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\.net project\\Server2\\MOD.ApiGateway\\MOD.ApiGateway.csproj": {}
+    "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\MOD.ApiGateway\\MOD.ApiGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\.net project\\Server2\\MOD.ApiGateway\\MOD.ApiGateway.csproj": {
+    "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\MOD.ApiGateway\\MOD.ApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\.net project\\Server2\\MOD.ApiGateway\\MOD.ApiGateway.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\MOD.ApiGateway\\MOD.ApiGateway.csproj",
         "projectName": "MOD.ApiGateway",
-        "projectPath": "C:\\Users\\hp\\Desktop\\.net project\\Server2\\MOD.ApiGateway\\MOD.ApiGateway.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\MOD.ApiGateway\\MOD.ApiGateway.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\.net project\\Server2\\MOD.ApiGateway\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\.net_project\\Server2\\MOD.ApiGateway\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

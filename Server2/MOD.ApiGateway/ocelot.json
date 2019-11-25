@@ -3,11 +3,11 @@
     //account part
     {
       "DownstreamPathTemplate": "/api/account/{catchAll}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 44305
+          "Port": 8085 
         }
       ],
       "UpstreamPathTemplate": "/authservice/{catchAll}"
@@ -18,11 +18,11 @@
     //admin part
     {
       "DownstreamPathTemplate": "/api/admin/{catchAll}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 44382
+          "Port": 8084
         }
       ],
       "UpstreamPathTemplate": "/adminservice/{catchAll}"
@@ -33,11 +33,11 @@
     //student part
     {
       "DownstreamPathTemplate": "/api/student/{catchAll}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 44317
+          "Port": 8082
         }
       ],
       "UpstreamPathTemplate": "/studentservice/{catchAll}"
@@ -49,17 +49,17 @@
     //mentor part
     {
       "DownstreamPathTemplate": "/api/mentor/{catchAll}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 44391
+          "Port": 8083
         }
       ],
       "UpstreamPathTemplate": "/mentorservice/{catchAll}"
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:44351"
+    "BaseUrl": "http://localhost:8086"
   }
 }
